@@ -20,7 +20,7 @@ Beginner-friendly workflow to capture packets, extract key indicators (DNS + TLS
 Run the triage script against a capture file:
 
 ```bash
-./scripts/triage.sh capture.pcapng
+./triage.sh capture.pcapng
 ```
 ### Outputs
 
