@@ -1,0 +1,27 @@
+# PCAPs / captures (do NOT publish raw traffic)
+*.pcap
+*.pcapng
+*.cap
+*.dmp
+
+# Outputs (optional: keep reports, ignore raw extracts if you want)
+# Uncomment if you prefer to only commit report.md
+# *.dns.txt
+# *.sni.txt
+# *.protocols.txt
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Logs
+*.log
