@@ -14,8 +14,17 @@ Beginner-friendly workflow to capture packets, extract key indicators (DNS + TLS
    - `report.md` (your final “incident-style” summary)
 
 ## Quickstart (WSL / Ubuntu)
-
 ### Install tools
+### Quickstart
+
+Run the triage script against a capture file:
+
 ```bash
-sudo apt update
-sudo apt install -y tshark wireshark-common
+./scripts/triage.sh capture.pcapng
+```
+### Outputs
+
+- outputs/dns.txt
+- outputs/sni.txt
+- outputs/protocols.txt
+- report.md (fill this using report_template.md)
